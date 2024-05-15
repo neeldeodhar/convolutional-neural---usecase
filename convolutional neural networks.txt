@@ -1,0 +1,25 @@
+
+CS 231 Convolutional Neural Networks for visual Recognition:
+
+
+In the article above the author has emphasized about ConvNet layers and ConvNet Architecutures.
+
+In the first part of the article he introduces a newer concept of ConvNet architecture.
+According to the author, the 3 main types of layers to build ConvNet architectures are again:
+  a) Convolutional Layer,
+  b) Pooling Layer
+  c) fully-connected layer.
+
+he further gives couple of example of ConvNet architecture where the CIFAR -10 classification has the architecture (INPUT -CONV-RELU-POOL-FC)
+
+in summary, "a ConvNet architecture is in the simplest case a list of layers that transform the image volume into an output volume".
+Also, according to the author, each layer may or may not have parameters and hyperparameters.
+
+	In the second half of the article, the author introduces another new concept of "parameter sharing".
+As per the author parameter sharing is used in convolutional layers to control number of parameters.
+    We can dramatically reduce the number of parameters by making one reasonable assumption:
+"That if one feature is useful to compute at some spatial position (x,y), then it should also be useful to compute at a different position (x2,y2)"
+
+
+
+Source:    https://cs231n.github.io/convolutional-networks/
